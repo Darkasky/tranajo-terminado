@@ -1,0 +1,99 @@
+@import url(header.css);
+@import url(menu2.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body main{
+    width: 90%;
+    height: auto;
+    margin:  0 auto;
+    position: relative;
+    top: 20px;
+}
+
+main h1{
+    display: block;
+    width: 400px;
+    font-size: 100%;
+    font-family: tahoma;
+    color: green;
+    position: relative;
+    left: 48%;
+    top: -50px;
+    margin-block-start: 0;
+    margin-block-end: 0;   
+}
+body h3{
+    position: relative;
+    top: 25px;
+    display: block;
+    background-color: green;
+    font-size: 200%;
+    font-family: tahoma;
+    color: white;
+    text-align: center;
+}
+.todoelcontenido{
+    width: 300px;
+    margin: auto;
+    perspective: 1000px;
+}
+.carucel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+
+}
+.carucel figure{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.carucel figure:nth-child(1){
+    transform: rotateY(0deg)
+    translateZ(100px)
+}
+.carucel figure:nth-child(2){
+    transform: rotateY(120deg)
+    translateZ(100px)
+}
+.carucel figure:nth-child(3){
+    transform: rotateY(240deg)
+    translateZ(100px)
+}
+.carucel figure:nth-child(4){
+    transform: rotateY(360deg)
+    translateZ(100px)
+}
+.carucel img{
+    width: 100%;
+}
+@keyframes rotar{
+    from{
+            transform:rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+.volver{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: tahoma;
+    text-decoration: none;
+    border: 5px solid rgb(3, 58, 3);
+    border-radius: 30px;
+    position: relative;
+    top: 550px;
+}
+.dos{
+    height: 400px;
+}

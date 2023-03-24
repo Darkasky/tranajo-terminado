@@ -1,0 +1,75 @@
+@import url(header.css);
+@import url(menu.css);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body main{
+    width: 90%;
+    height: auto;
+    margin:  0 auto;
+    position: relative;
+    top: 20px;
+}
+
+main h1{
+    display: block;
+    width: 400px;
+    font-size: 100%;
+    font-family: tahoma;
+    color: green;
+    position: relative;
+    left: 48%;
+    top: -50px;
+    margin-block-start: 0;
+    margin-block-end: 0;   
+}
+main .cuadro{
+    width: 90%;
+    height: 600px;
+    border:  5px solid green;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.cuadro img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 30px;
+}
+.cuadrodetexto{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background-color: bisque;
+}
+.cuadrodetexto p{
+    color: black;
+    font-size: 100%;
+    font-family: tahoma;
+    text-align: start   ;
+}
+.cuadro h3{
+    text-align: center;
+}
+.cuadro .botonimg{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: tahoma;
+    text-decoration: none;
+    border: 5px solid rgb(3, 58, 3);
+    border-radius: 30px;
+}
+.botonimg:hover{
+    background-color: greenyellow;
+}
+
